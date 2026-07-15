@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Laravel specific deployment options for Capistrano 3.x'
   spec.description   = 'Laravel deployment for Capistrano 3.x'
   spec.homepage      = 'https://github.com/capistrano/laravel'
+  spec.metadata = { "rubygems_mfa_required" => "true" }
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
